@@ -44,30 +44,18 @@ To run this project, follow these steps:
 3. Download the datasets and place them in the `data` directory.
 
 ## Usage
-1. **Training the Models**: 
-    Run the `train.py` script to train all four models on the datasets.
+**Training the Models, Prediction, Evaluation **: 
+    Run the `diabities_prediction.ipynb`, 'heart_disease_prediction.ipynb', 'lung_cancer_prediction.ipynb' script to train all four models on the datasets.
     ```bash
     python train.py
-    ```
-
-2. **Prediction**: 
-    After training, use the `predict.py` script to make predictions for new patient data.
-    ```bash
-    python predict.py --model svm --data sample_patient.csv
-    ```
-
-3. **Evaluation**:
-    Evaluate the models' performance using the evaluation metrics provided in the `evaluate.py` script.
-    ```bash
-    python evaluate.py
     ```
 
 ## Results
 - **Best Model**: Support Vector Machine (SVM)
 - **Accuracy**: 
-  - Heart Disease: 85%
-  - Diabetes: 90%
-  - Lung Cancer: 88%
+  - Heart Disease: 83%
+  - Diabetes: 75.32%
+  - Lung Cancer: 97.84%
 
 Other models such as Linear Regression, KNN, and Decision Tree showed lower accuracy but were still useful for comparison.
 
@@ -76,3 +64,6 @@ If you'd like to contribute to this project, feel free to submit a pull request 
 
 ## License
 This project is licensed under the MIT License.
+
+## Research Paper
+[https://ijisrt.com/unlocking-healthcare-insights-disease-prediction-with-machine-learning](https://ijisrt.com/unlocking-healthcare-insights-disease-prediction-with-machine-learning)
