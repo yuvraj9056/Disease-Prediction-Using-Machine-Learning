@@ -15,7 +15,7 @@ Table of Contents
 This project applies machine learning techniques to predict the risk of common diseases. We trained and tested four models on healthcare datasets to predict the presence of heart disease, diabetes, and lung cancer. Among the models used, the SVM model yielded the highest accuracy across all disease predictions.
 
 ## Models Used
-- **Linear Regression**: Applied for prediction but not very effective for classification.
+- **Logistic Regression**: Applied for prediction but not very effective for classification.
 - **Support Vector Machine (SVM)**: Best-performing model with the highest accuracy.
 - **K-Nearest Neighbors (KNN)**: A simple algorithm, generally effective but less accurate in our case.
 - **Decision Tree**: Good for interpretability but prone to overfitting.
